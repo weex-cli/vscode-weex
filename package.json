@@ -1,0 +1,28 @@
+{
+  "name": "vscode-weex",
+  "displayName": "vscode-weex",
+  "description": "weex vscode extension packs",
+  "version": "0.0.9",
+  "icon": "asset/weex.png",
+  "publisher": "weex",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weex-cli/vscode-weex"
+  },
+  "bugs": {
+    "url": "https://github.com/weex-cli/vscode-weex/issues"
+  },
+  "extensionPack": [
+    "weex.weex-run",
+    "weex.weex-lang",
+    "weex.weex-new-project",
+    "weex.weex-debugger",
+    "weex.weex-doctor"
+  ]
+}
