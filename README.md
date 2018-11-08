@@ -1,23 +1,49 @@
 # Introduction
 
 Vscode extension packs for weex development.
+Use it to do the following things:
+
+* Create new weex project ([weex-new-project](#weex-new-project))
+* Add weex IOS and Android project ([weex-new-project](#weex-new-project))
+* Weex language support for vscode ([weex-lang](#weex-lang))
+* Check weex IOS and Android devlopment environment ([weex-doctor](#weex-doctor))
+* Launch weex-debugger debug weex ([weex-debugger](#weex-debugger))
+* Run weex on web,IOS,Android ([weex-run](#weex-run))
+
+# Install
+
+In vscode extensions marketplace search `vscode-weex`, install the first.
+
+# Included extensions
 
 ## weex-new-project
 
 This VS Code extension adds support for weex new project.
 
+### Use
+
 1. cmd + shift + p (Windows: ctrl + shift + p)
 2. Input weex new project
 3. Enter
 
+### Demo
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.project.gif" max-width="1000">
+
 ## weex platform add android project
 
+### Use
 1. cmd + shift + p (Windows: ctrl + shift + p)
 2. Input weex platform add android project
 3. Enter
 
+### Demo
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.android.gif" max-width="1000">
+
+
+
 ## weex platform add iOS project
 
+### Use
 1. cmd + shift + p (Windows: ctrl + shift + p)
 2. Input weex platform add iOS project
 3. Enter
@@ -26,19 +52,27 @@ This VS Code extension adds support for weex new project.
 
 vscode weex language support
 
-[vscode-weex-lang](https://github.com/weex-cli/vscode-weex-lang)
+More info: [vscode-weex-lang](https://github.com/weex-cli/vscode-weex-lang)
+
+### Demo
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.lang.gif" max-width="1000">
 
 ## weex-doctor
 
-This VS Code extension adds support status for weex devlopment environment.
+This VS Code extension is testing the weex development environment
 
+### Use
 1. cmd + shift + p (Windows: ctrl + shift + p)
 2. Input weex new project
 3. Enter
 
+### Demo
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.doctor.gif" max-width="1000">
+
 ## weex-debugger
 Help launch weex-debugger debug weex.
 
+### Use
 1. cmd + shift + p (Windows: ctrl + shift + p)
 2. Input weex debug
 3. Enter
@@ -50,22 +84,34 @@ see https://github.com/weexteam/weex-debugger
 
 Run weex in Browser、IOS、Android
 
-### 1. Open Project
+### Use
+
+#### 1. Open Project
+
 Open a weex project create by `weex-new-project` or `weexToolkit`
 
-### 2. Run
+#### 2. Run
 
-#### Run web
+Run web
 
-![](https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.web.gif)
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.web.gif" max-width="1000">
 
-#### Run IOS
 
-![](https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.gif)
+Run IOS
 
-#### Run Android
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.gif" max-width="1000">
 
-![](https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.gif)
+Run IOS result
+
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.result.gif" max-width="1000">
+
+Run Android
+
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.gif" max-width="1000">
+
+Run Android result
+
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.result.gif" max-width="1000">
 
 ### 3. Config launch.json
 
