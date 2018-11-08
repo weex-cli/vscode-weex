@@ -8,7 +8,7 @@ Use it to do the following things:
 * Weex language support for vscode ([weex-lang](#weex-lang))
 * Check weex IOS and Android devlopment environment ([weex-doctor](#weex-doctor))
 * Launch weex-debugger debug weex ([weex-debugger](#weex-debugger))
-* Run weex on web,IOS,Android ([weex-run](#weex-run))
+* Run weex in Web,IOS,Android ([weex-run](#weex-run))
 
 # Install
 
@@ -63,7 +63,7 @@ This VS Code extension is testing the weex development environment
 
 ### Use
 1. cmd + shift + p (Windows: ctrl + shift + p)
-2. Input weex new project
+2. Input weex doctor
 3. Enter
 
 ### Demo
@@ -82,7 +82,7 @@ see https://github.com/weexteam/weex-debugger
 
 ## weex-run
 
-Run weex in Browser、IOS、Android
+Run weex in Web,IOS,Android
 
 ### Use
 
