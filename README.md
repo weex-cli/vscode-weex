@@ -27,7 +27,7 @@ This VS Code extension adds support for weex new project.
 3. Enter
 
 ### Demo
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.project.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.project.gif" width="898px">
 
 ## weex platform add android project
 
@@ -37,7 +37,7 @@ This VS Code extension adds support for weex new project.
 3. Enter
 
 ### Demo
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.android.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.android.gif" width="898px">
 
 
 
@@ -55,7 +55,7 @@ vscode weex language support
 More info: [vscode-weex-lang](https://github.com/weex-cli/vscode-weex-lang)
 
 ### Demo
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.lang.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.lang.gif" width="898px">
 
 ## weex-doctor
 
@@ -67,7 +67,7 @@ This VS Code extension is testing the weex development environment
 3. Enter
 
 ### Demo
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.doctor.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.doctor.gif" width="898px">
 
 ## weex-debugger
 Help launch weex-debugger debug weex.
@@ -94,24 +94,24 @@ Open a weex project create by `weex-new-project` or `weexToolkit`
 
 Run web
 
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.web.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.web.gif" width="898px">
 
 
 Run IOS
 
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.gif" width="898px">
 
 Run IOS result
 
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.result.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.result.gif" width="898px">
 
 Run Android
 
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.gif" width="898px">
 
 Run Android result
 
-<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.result.gif" max-width="1000">
+<img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.result.gif" width="898px">
 
 ### 3. Config launch.json
 
@@ -119,7 +119,7 @@ The launch.json path is `.vscode/launch.json`, you can edit it to config runner.
 
 ### Note
 
-* Run IOS or Android APP make sure you have added native project (Path of which you `launch.json` key `projectPath` set), you can use )[weex-new-project](#weex-platform-add-android-project) add native project
+* Run IOS or Android APP make sure you have added native project (Path of which you `launch.json` key `projectPath` set), you can use [weex-new-project](#weex-platform-add-android-project) add native project
 
 * If the run fails, You can try to check the environment by [weex-doctor](#weex-doctor)
 
