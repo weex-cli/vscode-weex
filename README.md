@@ -1,121 +1,136 @@
-# Introduction
+## Introduction
 
-Vscode extension packs for weex development.
-Use it to do the following things:
+### Features
 
-* Create new weex project ([weex-new-project](#weex-new-project))
-* Add weex IOS and Android project ([weex-new-project](#weex-new-project))
-* Weex language support for vscode ([weex-lang](#weex-lang))
-* Check weex IOS and Android devlopment environment ([weex-doctor](#weex-doctor))
-* Launch weex-debugger debug weex ([weex-debugger](#weex-debugger))
-* Run weex in Web,IOS,Android ([weex-run](#weex-run))
+- Creating weex project.
+- Weex language support for VSCode.
+- Checking iOS and Android develop environment.
+- Launch weex debugger terminal to debug your code.
+- Runing iOS or Android project with hot reload.
 
-# Install
+The VSCode extension mainly contains the following packages:
 
-In vscode extensions marketplace search `vscode-weex`, install the first.
+1. [weex-new-project](#weex-new-project) - used for creating weex project in VSCode.
 
-# Included extensions
+2. [weex-lang](#weex-lang) - support latest weex language for VSCode.
+
+3. [weex-doctor](#weex-doctor) - check the iOS and Android develop environment on your platform.
+
+4. [weex-debugger](#weex-debugger) - launch weex debugger terminal to debug your weex code.
+
+5. [weex-run](#weex-run) - run iOS or Android project under VSCode (support hot reload).
+
+You can install below packages by just install the `vscode-weex` extension.
+
+## Install
+
+Searching `vscode-weex` on VSCode Extension panel -> Install.
+
+## Packages
 
 ## weex-new-project
 
-This VS Code extension adds support for weex new project.
+This extension is used for creating weex project under VSCode environment.
 
-### Use
+### Create weex project
 
-1. cmd + shift + p (Windows: ctrl + shift + p)
-2. Input weex new project
-3. Enter
+#### How to use
 
-### Demo
+1. Open your VSCode, then type <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> or <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to open VSCode commandline.
+2. Type `weex new project`.
+3. Type <kbd>Enter</kbd>, then choosing a address for your project.
+
+#### Snapshot
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.project.gif" width="898px">
 
-## weex platform add android project
+### Add android project
 
-### Use
-1. cmd + shift + p (Windows: ctrl + shift + p)
-2. Input weex platform add android project
-3. Enter
+#### How to use
 
-### Demo
+1. Open your VSCode, then type <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> or <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to open VSCode commandline.
+2. Type `weex platform add android project`
+3. Type <kbd>Enter</kbd>
+
+#### Snapshot
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/new.android.gif" width="898px">
 
 
 
-## weex platform add iOS project
+### Add iOS project
 
-### Use
-1. cmd + shift + p (Windows: ctrl + shift + p)
-2. Input weex platform add iOS project
-3. Enter
+#### How to use
+
+1. Open your VSCode, then type <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> or <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to open VSCode commandline.
+2. Type `weex platform add iOS project`
+3. Type <kbd>Enter</kbd>
+
 
 ## weex-lang
 
-vscode weex language support
+Weex language support for VSCode.
 
-More info: [vscode-weex-lang](https://github.com/weex-cli/vscode-weex-lang)
+More detail you can see: [vscode-weex-lang](https://github.com/weex-cli/vscode-weex-lang).
 
-### Demo
+### Snapshot
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.lang.gif" width="898px">
 
 ## weex-doctor
 
-This VS Code extension is testing the weex development environment
+Extension for checking Weex develop environment. 
 
-### Use
-1. cmd + shift + p (Windows: ctrl + shift + p)
-2. Input weex doctor
-3. Enter
+### How to use
 
-### Demo
+1. Open your VSCode, then type <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> or <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to open VSCode commandline.
+2. Type `weex doctor`
+3. Type <kbd>Enter</kbd>
+
+### Snapshot
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/weex.doctor.gif" width="898px">
 
 ## weex-debugger
-Help launch weex-debugger debug weex.
 
-### Use
-1. cmd + shift + p (Windows: ctrl + shift + p)
-2. Input weex debug
-3. Enter
+Launch weex debugger terminal for VSCode.
 
-More info
-see https://github.com/weexteam/weex-debugger
+### How to use
+
+1. Open your VSCode, then type <kbd>CMD</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> or <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> to open VSCode commandline.
+2. Type `weex debug`
+3. Type <kbd>Enter</kbd>
+
+More detail you can see: [weexteam/weex-debugger](https://github.com/weexteam/weex-debugger)
 
 ## weex-run
 
-Run weex in Web,IOS,Android
+Runing iOS/Android/Web project under the VSCode.
 
-### Use
+### How to use
 
-#### 1. Open Project
+1. Open a weex project created by VSCode extension or `weex-toolkit`.
+2. Run the project under the VSCode debug panel.
+3. You can also edit the configuration under the `.vscode/launch.json`.
 
-Open a weex project create by `weex-new-project` or `weexToolkit`
+### Snapshot
 
-#### 2. Run
-
-Run web
+#### Web
 
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.web.gif" width="898px">
 
-
-Run IOS
+#### iOS
 
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.gif" width="898px">
 
-Run IOS result
+#### Result
 
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.ios.result.gif" width="898px">
 
-Run Android
+#### Android
 
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.gif" width="898px">
 
-Run Android result
+#### Result
 
 <img src="https://raw.githubusercontent.com/weex-cli/vscode-weex/master/asset/run.android.result.gif" width="898px">
 
-### 3. Config launch.json
-
-The launch.json path is `.vscode/launch.json`, you can edit it to config runner.
 
 ### Note
 
@@ -129,6 +144,6 @@ The launch.json path is `.vscode/launch.json`, you can edit it to config runner.
 
 * Debugging in the vscode editor breakpoint is not yet supported
 
-# Issues
+## Issues
 
-https://github.com/weex-cli/vscode-weex/issues
+- [weex-cli/vscode-weex/issues](https://github.com/weex-cli/vscode-weex/issues)
